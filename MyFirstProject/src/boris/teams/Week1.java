@@ -11,6 +11,7 @@ public class Week1 {
 		String lastName = "Goetz";
 		String wholeName = firstName + " " + lastName;
 		double accountBalance = 23.70;
+		char middleinitial = 'V';
 				
 		System.out.println("Hello, my name is wholeName");
 		System.out.println(age);
@@ -20,6 +21,11 @@ public class Week1 {
 		System.out.println("The definition of love and beauty and wierdness is " + wholeName);
 		System.out.println("Jason takes a bite out of crime and acts like he is " + age/17);
 		System.out.println(accountBalance / 12);
+		System.out.println(firstName +" "+ lastName);
+		System.out.println(firstName +" "+ middleinitial +" "+ lastName);
+		
+		
+		
 		
 	}
 
